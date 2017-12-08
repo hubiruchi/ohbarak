@@ -15,7 +15,7 @@
 	var ohbaraks = <?php json_dumps(array_diff(scandir("audio"), array("..", "."))); ?>;
 	document.getElementById("ohbarak").addEventListener("click", function() {
 		var ohbarak = ohbaraks[Math.floor(Math.random()*ohbaraks.length)];
-		new Audio("audio/" + ohbarak + ".mp3").play();
+		new Audio("audio/" + ohbarak).play();
 	});
 	</script>
 </body>
