@@ -9,6 +9,7 @@ body {
   position: absolute;
   margin-left: -100px;
   margin-top: -100px;
+  text-align: center;
 }
 .center .button {
   width: 200px;
@@ -42,4 +43,8 @@ body {
   -ms-transition: 0.1s all ease-out;
   -o-transition: 0.1s all ease-out;
   transition: 0.1s all ease-out;
+}
+.center label {
+  color: #868e96;
+  font-size: small;
 }
